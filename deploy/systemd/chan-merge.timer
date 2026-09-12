@@ -1,0 +1,13 @@
+# 收盘后合并触发 timer
+# 交易日 15:05 (Asia/Shanghai) — A股收盘后 5 分钟
+
+[Unit]
+Description=Run chan_merge + v3 after market close
+
+[Timer]
+OnCalendar=*-*-* 15:05:00 Asia/Shanghai
+Persistent=true
+Unit=chan-merge.service
+
+[Install]
+WantedBy=timers.target

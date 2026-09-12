@@ -1,0 +1,14 @@
+# VM-B 降序扫描触发 timer
+# 交易日 09:00 (Asia/Shanghai) 启动
+
+[Unit]
+Description=Start meet-in desc scan (VM-B) at market open
+
+[Timer]
+OnCalendar=*-*-* 09:00:00 Asia/Shanghai
+RandomizedDelaySec=60
+Persistent=true
+Unit=meet-desc.service
+
+[Install]
+WantedBy=timers.target

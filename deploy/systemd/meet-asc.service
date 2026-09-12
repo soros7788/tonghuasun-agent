@@ -1,0 +1,52 @@
+# VM-A 升序 meet-in 扫描
+# 部署在 VM-A (tradingagents-new)
+# 每天 09:00 (Asia/Shanghai) 自动启动升序扫描
+
+[Unit]
+Description=Meet-in-the-middle asc scan (VM-A, 升序)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=gorgesoros39
+WorkingDirectory=/home/gorgesoros39/TradingAgents-CN/scripts/chanlun-workflow
+
+# 环境变量
+Environment=MITM_LEDGER=/home/gorgesoros39/chan_logs/scan_ledger.jsonl
+Environment=MITM_SLEEP=0.3
+Environment=KLINE_CACHE_DIR=/home/gorgesoros39/kline_cache_local
+
+# 启动命令
+ExecStartPre=/bin/bash -c '
+  mkdir -p /home/gorgesoros39/chan_logs && \
+  if [ -f /home/gorgesoros39/chan_logs/scan_ledger.jsonl ]; then \
+    mv /home/gorgesoros39/chan_logs/scan_ledger.jsonl \
+       /home/gorgesoros39/chan_logs/scan_ledger.asc.$(date +%Y%m%d_%H%M%S).jsonl 2>/dev/null || true; \
+  fi
+'
+ExecStart=/usr/bin/python3 meet_in_the_middle_scan.py \
+    --side asc \
+    --codes /home/gorgesoros39/TradingAgents-CN/kline_cache/_codes_mainboard.txt \
+    --ledger /home/gorgesoros39/chan_logs/scan_ledger.jsonl \
+    --dual2-dir . \
+    --ssh-host katelolita7788@35.212.190.147 \
+    --ssh-key /home/gorgesoros39/.ssh/hermes_key
+
+# 不在交易时段就停掉 (防止扫到非交易数据)
+# 15:01 自动终止
+ExecStopPost=/bin/bash -c '
+  pkill -f "meet_in_the_middle_scan.*--side asc" || true; \
+  echo "[$(date +%H:%M:%S)] asc scan stopped" >> /home/gorgesoros39/chan_logs/meet.log
+'
+
+# 进程管理
+Restart=no
+StandardOutput=append:/home/gorgesoros39/chan_logs/meet_asc.log
+StandardError=append:/home/gorgesoros39/chan_logs/meet_asc.log
+
+# 日志保留
+SyslogIdentifier=meet-asc
+
+[Install]
+WantedBy=default.target

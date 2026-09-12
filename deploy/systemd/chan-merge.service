@@ -1,0 +1,51 @@
+# 收盘后账本合并 + v3 仓位计算
+# 部署在 VM-A (tradingagents-new) — VM-A SSH 能到 VM-B 拉账本
+# 交易日 15:05 (Asia/Shanghai) 触发
+
+[Unit]
+Description=Post-market merge + v3 position compute
+After=network-online.target meet-asc.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=gorgesoros39
+WorkingDirectory=/home/gorgesoros39/TradingAgents-CN/scripts/chanlun-workflow
+
+# 用 deploy/ 里的脚本
+ExecStart=/bin/bash -c '
+  DEPLOY=/home/gorgesoros39/deploy
+  LOGDIR=/home/gorgesoros39/chan_logs
+  VMB_HOST=katelolita7788@35.212.190.147
+  VMB_KEY=/home/gorgesoros39/.ssh/hermes_key
+
+  mkdir -p $LOGDIR
+
+  # 1. 合并双机账本 (从 VM-A 本地 + SSH 拉 VM-B)
+  echo "[$(date +%H:%M:%S)] chan_merge start" >> $LOGDIR/merge.log
+  python3 $DEPLOY/chan_merge.py \
+      -i $LOGDIR/scan_ledger.jsonl \
+      --vmb-host "$VMB_HOST" \
+      --vmb-ledger ~/chan_logs/scan_ledger.jsonl \
+      --vmb-key "$VMB_KEY" \
+      --include-blocked \
+      -o $LOGDIR/merged_$(date +%Y%m%d).json
+
+  # 2. v3 仓位计算 (默认强市 + A 级信号, 按实际调整)
+  python3 $DEPLOY/v3_position_manager.py \
+      -c $LOGDIR/merged_$(date +%Y%m%d).json \
+      --source chan_merge \
+      --regime strong \
+      --grade A \
+      --asset 50000 \
+      -o $LOGDIR/v3_positions_$(date +%Y%m%d).json
+
+  echo "[$(date +%H:%M:%S)] chan_merge done" >> $LOGDIR/merge.log
+'
+
+StandardOutput=append:/home/gorgesoros39/chan_logs/merge.log
+StandardError=append:/home/gorgesoros39/chan_logs/merge.log
+SyslogIdentifier=chan-merge
+
+[Install]
+WantedBy=default.target

@@ -1,0 +1,43 @@
+# VM-B 降序 meet-in 扫描
+# 部署在 VM-B (hermes-free)
+# 每天 09:00 (Asia/Shanghai) 自动启动降序扫描
+
+[Unit]
+Description=Meet-in-the-middle desc scan (VM-B, 降序)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=katelolita7788
+WorkingDirectory=/home/katelolita7788/TradingAgents-CN/scripts/chanlun-workflow
+
+Environment=MITM_LEDGER=/home/katelolita7788/chan_logs/scan_ledger.jsonl
+Environment=MITM_SLEEP=0.3
+Environment=KLINE_CACHE_DIR=/home/katelolita7788/TradingAgents-CN/kline_cache
+
+ExecStartPre=/bin/bash -c '
+  mkdir -p /home/katelolita7788/chan_logs && \
+  if [ -f /home/katelolita7788/chan_logs/scan_ledger.jsonl ]; then \
+    mv /home/katelolita7788/chan_logs/scan_ledger.jsonl \
+       /home/katelolita7788/chan_logs/scan_ledger.desc.$(date +%Y%m%d_%H%M%S).jsonl 2>/dev/null || true; \
+  fi
+'
+ExecStart=/usr/bin/python3 meet_in_the_middle_scan.py \
+    --side desc \
+    --codes /home/katelolita7788/TradingAgents-CN/kline_cache/_codes_mainboard.txt \
+    --ledger /home/katelolita7788/chan_logs/scan_ledger.jsonl \
+    --dual2-dir .
+
+ExecStopPost=/bin/bash -c '
+  pkill -f "meet_in_the_middle_scan.*--side desc" || true; \
+  echo "[$(date +%H:%M:%S)] desc scan stopped" >> /home/katelolita7788/chan_logs/meet.log
+'
+
+Restart=no
+StandardOutput=append:/home/katelolita7788/chan_logs/meet_desc.log
+StandardError=append:/home/katelolita7788/chan_logs/meet_desc.log
+SyslogIdentifier=meet-desc
+
+[Install]
+WantedBy=default.target

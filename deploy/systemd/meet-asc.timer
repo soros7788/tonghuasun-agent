@@ -1,0 +1,17 @@
+# VM-A 升序扫描触发 timer
+# 交易日 09:00 (Asia/Shanghai) 启动
+
+[Unit]
+Description=Start meet-in asc scan (VM-A) at market open
+
+[Timer]
+OnCalendar=*-*-* 09:00:00 Asia/Shanghai
+# 盘前准备 (kline 缓存预加载 + 账本旋转)
+# A股交易时间 09:30-15:00
+# 扫描提前 30min 启动, 在开盘前准备好
+RandomizedDelaySec=60
+Persistent=true
+Unit=meet-asc.service
+
+[Install]
+WantedBy=timers.target
