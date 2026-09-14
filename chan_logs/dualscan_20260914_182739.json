@@ -1,0 +1,3035 @@
+{
+  "ts": "2026-09-14 18:27:39 CST",
+  "stage1": null,
+  "dual": [
+    {
+      "code": "000001",
+      "name": "",
+      "price": 11.85,
+      "ratio": null,
+      "dlp": null,
+      "stage1_confirmed": false,
+      "gate": "BLOCKED",
+      "recursive_direction": "bullish",
+      "recursive_summary": {
+        "trend_bullish": 31,
+        "trend_bearish": 30,
+        "segment_bullish": 37,
+        "segment_bearish": 36,
+        "bi_bullish": 118,
+        "bi_bearish": 117,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 378,
+        "confirmed": 376,
+        "forming": 2,
+        "tier_R0": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 57,
+          "segment_confirmed": 68,
+          "bi_confirmed": 217,
+          "zhongshu_confirmed": 7,
+          "trend_bullish": 29,
+          "trend_bearish": 28
+        },
+        "tier_R1": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 4,
+          "segment_confirmed": 5,
+          "bi_confirmed": 18,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 2,
+          "trend_bearish": 2
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 0,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "bullish",
+        "r0_dir": "bullish",
+        "three_way_unison": false,
+        "two_way_r10": true,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 0,
+        "bearish_confirmed": 2,
+        "total": 7
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 0.0,
+          "verdict": "conflict"
+        },
+        "R0": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 2,
+          "alignment_ratio": 0.0,
+          "verdict": "conflict"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 0,
+        "present_r_levels": 2,
+        "conflict_r_levels": 2,
+        "partial_r_levels": 0,
+        "final_verdict": "conflict",
+        "gate_modifier": "BLOCKED",
+        "explanation": "层级冲突: ['R1', 'R0'] 的递归方向与区间套证据矛盾"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "vm": "A"
+    },
+    {
+      "code": "000002",
+      "name": "",
+      "price": 3.05,
+      "ratio": null,
+      "dlp": null,
+      "stage1_confirmed": false,
+      "gate": "BLOCKED",
+      "recursive_direction": "bearish",
+      "recursive_summary": {
+        "trend_bullish": 10,
+        "trend_bearish": 10,
+        "segment_bullish": 12,
+        "segment_bearish": 10,
+        "bi_bullish": 36,
+        "bi_bearish": 37,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 120,
+        "confirmed": 118,
+        "forming": 2,
+        "tier_R0": {
+          "trend_dir": "bearish",
+          "trend_confirmed": 20,
+          "segment_confirmed": 22,
+          "bi_confirmed": 70,
+          "zhongshu_confirmed": 3,
+          "trend_bullish": 10,
+          "trend_bearish": 10
+        },
+        "tier_R1": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 3,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 0,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "none",
+        "r0_dir": "bearish",
+        "three_way_unison": false,
+        "two_way_r10": false,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 0,
+        "bearish_confirmed": 0,
+        "total": 5
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R0": {
+          "recursive_trend": "bearish",
+          "recursive_trend_raw": "bearish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "1min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 0,
+        "present_r_levels": 1,
+        "conflict_r_levels": 0,
+        "partial_r_levels": 0,
+        "final_verdict": "no_signal",
+        "gate_modifier": "NEUTRAL",
+        "explanation": "present=1, conflict=0, aligned=0"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "vm": "A"
+    },
+    {
+      "code": "000004",
+      "name": "",
+      "price": 0.51,
+      "ratio": 127.24582674343175,
+      "dlp": 0.07907216798906977,
+      "stage1_confirmed": false,
+      "gate": "PASS",
+      "recursive_direction": "bullish",
+      "recursive_summary": {
+        "trend_bullish": 11,
+        "trend_bearish": 10,
+        "segment_bullish": 13,
+        "segment_bearish": 16,
+        "bi_bullish": 49,
+        "bi_bearish": 48,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 150,
+        "confirmed": 149,
+        "forming": 1,
+        "tier_R0": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 21,
+          "segment_confirmed": 28,
+          "bi_confirmed": 91,
+          "zhongshu_confirmed": 2,
+          "trend_bullish": 11,
+          "trend_bearish": 10
+        },
+        "tier_R1": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 1,
+          "bi_confirmed": 6,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 0,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "none",
+        "r0_dir": "bullish",
+        "three_way_unison": false,
+        "two_way_r10": false,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 1,
+        "bearish_confirmed": 0,
+        "total": 6
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R0": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "1min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 1,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 1.0,
+          "verdict": "aligned"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 1,
+        "present_r_levels": 1,
+        "conflict_r_levels": 0,
+        "partial_r_levels": 0,
+        "final_verdict": "partial",
+        "gate_modifier": "WEAK_PASS",
+        "explanation": "仅 1 层对齐, 其他层无语义区间套证据"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "valid": true,
+      "confirmed": false,
+      "near": false,
+      "score": 20,
+      "slp": null,
+      "slp_score": null,
+      "slp_valid": null,
+      "slp_source": "scan_one_backfill",
+      "dlp_source": "scan_one_backfill",
+      "vm": "A"
+    },
+    {
+      "code": "000006",
+      "name": "",
+      "price": 6.79,
+      "ratio": null,
+      "dlp": null,
+      "stage1_confirmed": false,
+      "gate": "BLOCKED",
+      "recursive_direction": "bearish",
+      "recursive_summary": {
+        "trend_bullish": 46,
+        "trend_bearish": 46,
+        "segment_bullish": 52,
+        "segment_bearish": 49,
+        "bi_bullish": 158,
+        "bi_bearish": 158,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 523,
+        "confirmed": 522,
+        "forming": 1,
+        "tier_R0": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 87,
+          "segment_confirmed": 95,
+          "bi_confirmed": 294,
+          "zhongshu_confirmed": 13,
+          "trend_bullish": 44,
+          "trend_bearish": 43
+        },
+        "tier_R1": {
+          "trend_dir": "bearish",
+          "trend_confirmed": 5,
+          "segment_confirmed": 6,
+          "bi_confirmed": 22,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 2,
+          "trend_bearish": 3
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 0,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "bearish",
+        "r0_dir": "bullish",
+        "three_way_unison": false,
+        "two_way_r10": false,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 1,
+        "bearish_confirmed": 1,
+        "total": 7
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": "bearish",
+          "recursive_trend_raw": "bearish",
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 1,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 1.0,
+          "verdict": "aligned"
+        },
+        "R0": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 1,
+          "total_intervals_with_signal": 2,
+          "alignment_ratio": 0.5,
+          "verdict": "partial"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 1,
+        "present_r_levels": 2,
+        "conflict_r_levels": 0,
+        "partial_r_levels": 1,
+        "final_verdict": "partial",
+        "gate_modifier": "WEAK_PASS",
+        "explanation": "1 层完全对齐, 1 层部分对齐 → 弱确认"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "vm": "A"
+    },
+    {
+      "code": "000007",
+      "name": "",
+      "price": 10.99,
+      "ratio": 269.47327461305906,
+      "dlp": 0.07984598944861757,
+      "stage1_confirmed": false,
+      "gate": "PASS",
+      "recursive_direction": "bullish",
+      "recursive_summary": {
+        "trend_bullish": 77,
+        "trend_bearish": 77,
+        "segment_bullish": 86,
+        "segment_bearish": 81,
+        "bi_bullish": 258,
+        "bi_bearish": 260,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 861,
+        "confirmed": 859,
+        "forming": 2,
+        "tier_R0": {
+          "trend_dir": "bearish",
+          "trend_confirmed": 146,
+          "segment_confirmed": 156,
+          "bi_confirmed": 479,
+          "zhongshu_confirmed": 19,
+          "trend_bullish": 73,
+          "trend_bearish": 73
+        },
+        "tier_R1": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 8,
+          "segment_confirmed": 11,
+          "bi_confirmed": 39,
+          "zhongshu_confirmed": 1,
+          "trend_bullish": 4,
+          "trend_bearish": 4
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 0,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "bullish",
+        "r0_dir": "bearish",
+        "three_way_unison": false,
+        "two_way_r10": false,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 1,
+        "bearish_confirmed": 1,
+        "total": 7
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 1,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 1.0,
+          "verdict": "aligned"
+        },
+        "R0": {
+          "recursive_trend": "bearish",
+          "recursive_trend_raw": "bearish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 1,
+          "total_intervals_with_signal": 2,
+          "alignment_ratio": 0.5,
+          "verdict": "partial"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 1,
+        "present_r_levels": 2,
+        "conflict_r_levels": 0,
+        "partial_r_levels": 1,
+        "final_verdict": "partial",
+        "gate_modifier": "WEAK_PASS",
+        "explanation": "1 层完全对齐, 1 层部分对齐 → 弱确认"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "valid": false,
+      "confirmed": false,
+      "near": false,
+      "score": 0,
+      "slp": null,
+      "slp_score": null,
+      "slp_valid": null,
+      "slp_source": "scan_one_backfill",
+      "dlp_source": "scan_one_backfill",
+      "vm": "A"
+    },
+    {
+      "code": "000008",
+      "name": "",
+      "price": 2.46,
+      "ratio": null,
+      "dlp": null,
+      "stage1_confirmed": false,
+      "gate": "BLOCKED",
+      "recursive_direction": "bullish",
+      "recursive_summary": {
+        "trend_bullish": 6,
+        "trend_bearish": 6,
+        "segment_bullish": 7,
+        "segment_bearish": 7,
+        "bi_bullish": 23,
+        "bi_bearish": 24,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 75,
+        "confirmed": 75,
+        "forming": 0,
+        "tier_R0": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 12,
+          "segment_confirmed": 14,
+          "bi_confirmed": 45,
+          "zhongshu_confirmed": 2,
+          "trend_bullish": 6,
+          "trend_bearish": 6
+        },
+        "tier_R1": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 2,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 0,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "none",
+        "r0_dir": "bullish",
+        "three_way_unison": false,
+        "two_way_r10": false,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 0,
+        "bearish_confirmed": 1,
+        "total": 5
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R0": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 0.0,
+          "verdict": "conflict"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 0,
+        "present_r_levels": 1,
+        "conflict_r_levels": 1,
+        "partial_r_levels": 0,
+        "final_verdict": "conflict",
+        "gate_modifier": "BLOCKED",
+        "explanation": "层级冲突: ['R0'] 的递归方向与区间套证据矛盾"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "vm": "A"
+    },
+    {
+      "code": "000009",
+      "name": "",
+      "price": 6.94,
+      "ratio": null,
+      "dlp": null,
+      "stage1_confirmed": false,
+      "gate": "BLOCKED",
+      "recursive_direction": "bullish",
+      "recursive_summary": {
+        "trend_bullish": 34,
+        "trend_bearish": 33,
+        "segment_bullish": 38,
+        "segment_bearish": 40,
+        "bi_bullish": 125,
+        "bi_bearish": 123,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 404,
+        "confirmed": 403,
+        "forming": 1,
+        "tier_R0": {
+          "trend_dir": "bearish",
+          "trend_confirmed": 66,
+          "segment_confirmed": 74,
+          "bi_confirmed": 231,
+          "zhongshu_confirmed": 10,
+          "trend_bullish": 33,
+          "trend_bearish": 33
+        },
+        "tier_R1": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 1,
+          "segment_confirmed": 4,
+          "bi_confirmed": 17,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 1,
+          "trend_bearish": 0
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 0,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "bullish",
+        "r0_dir": "bearish",
+        "three_way_unison": false,
+        "two_way_r10": false,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 0,
+        "bearish_confirmed": 2,
+        "total": 7
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 0.0,
+          "verdict": "conflict"
+        },
+        "R0": {
+          "recursive_trend": "bearish",
+          "recursive_trend_raw": "bearish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 2,
+          "total_intervals_with_signal": 2,
+          "alignment_ratio": 1.0,
+          "verdict": "aligned"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 1,
+        "present_r_levels": 2,
+        "conflict_r_levels": 1,
+        "partial_r_levels": 0,
+        "final_verdict": "conflict",
+        "gate_modifier": "BLOCKED",
+        "explanation": "层级冲突: ['R1'] 的递归方向与区间套证据矛盾"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "vm": "A"
+    },
+    {
+      "code": "000011",
+      "name": "",
+      "price": 8.58,
+      "ratio": null,
+      "dlp": null,
+      "stage1_confirmed": false,
+      "gate": "PASS",
+      "recursive_direction": "bullish",
+      "recursive_summary": {
+        "trend_bullish": 48,
+        "trend_bearish": 47,
+        "segment_bullish": 57,
+        "segment_bearish": 57,
+        "bi_bullish": 182,
+        "bi_bearish": 181,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 588,
+        "confirmed": 587,
+        "forming": 1,
+        "tier_R0": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 90,
+          "segment_confirmed": 106,
+          "bi_confirmed": 334,
+          "zhongshu_confirmed": 15,
+          "trend_bullish": 45,
+          "trend_bearish": 45
+        },
+        "tier_R1": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 5,
+          "segment_confirmed": 8,
+          "bi_confirmed": 29,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 3,
+          "trend_bearish": 2
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 0,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "bullish",
+        "r0_dir": "bullish",
+        "three_way_unison": false,
+        "two_way_r10": true,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 1,
+        "bearish_confirmed": 1,
+        "total": 7
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 1,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 1.0,
+          "verdict": "aligned"
+        },
+        "R0": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 1,
+          "total_intervals_with_signal": 2,
+          "alignment_ratio": 0.5,
+          "verdict": "partial"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 1,
+        "present_r_levels": 2,
+        "conflict_r_levels": 0,
+        "partial_r_levels": 1,
+        "final_verdict": "partial",
+        "gate_modifier": "WEAK_PASS",
+        "explanation": "1 层完全对齐, 1 层部分对齐 → 弱确认"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "valid": null,
+      "confirmed": null,
+      "near": null,
+      "score": null,
+      "slp": 0.07385567214782772,
+      "slp_score": 20,
+      "slp_valid": true,
+      "slp_source": "scan_one_backfill",
+      "dlp_source": "scan_one_backfill",
+      "vm": "A"
+    },
+    {
+      "code": "000012",
+      "name": "",
+      "price": 3.77,
+      "ratio": null,
+      "dlp": null,
+      "stage1_confirmed": false,
+      "gate": "BLOCKED",
+      "recursive_direction": "bearish",
+      "recursive_summary": {
+        "trend_bullish": 10,
+        "trend_bearish": 11,
+        "segment_bullish": 11,
+        "segment_bearish": 15,
+        "bi_bullish": 42,
+        "bi_bearish": 42,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 133,
+        "confirmed": 133,
+        "forming": 0,
+        "tier_R0": {
+          "trend_dir": "bearish",
+          "trend_confirmed": 21,
+          "segment_confirmed": 25,
+          "bi_confirmed": 80,
+          "zhongshu_confirmed": 2,
+          "trend_bullish": 10,
+          "trend_bearish": 11
+        },
+        "tier_R1": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 1,
+          "bi_confirmed": 4,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 0,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "none",
+        "r0_dir": "bearish",
+        "three_way_unison": false,
+        "two_way_r10": false,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 0,
+        "bearish_confirmed": 2,
+        "total": 7
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R0": {
+          "recursive_trend": "bearish",
+          "recursive_trend_raw": "bearish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 2,
+          "total_intervals_with_signal": 2,
+          "alignment_ratio": 1.0,
+          "verdict": "aligned"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 1,
+        "present_r_levels": 1,
+        "conflict_r_levels": 0,
+        "partial_r_levels": 0,
+        "final_verdict": "partial",
+        "gate_modifier": "WEAK_PASS",
+        "explanation": "仅 1 层对齐, 其他层无语义区间套证据"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "vm": "A"
+    },
+    {
+      "code": "000014",
+      "name": "",
+      "price": 10.27,
+      "ratio": null,
+      "dlp": null,
+      "stage1_confirmed": false,
+      "gate": "BLOCKED",
+      "recursive_direction": "bearish",
+      "recursive_summary": {
+        "trend_bullish": 64,
+        "trend_bearish": 65,
+        "segment_bullish": 72,
+        "segment_bearish": 67,
+        "bi_bullish": 217,
+        "bi_bearish": 218,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 721,
+        "confirmed": 719,
+        "forming": 2,
+        "tier_R0": {
+          "trend_dir": "bearish",
+          "trend_confirmed": 122,
+          "segment_confirmed": 131,
+          "bi_confirmed": 407,
+          "zhongshu_confirmed": 15,
+          "trend_bullish": 61,
+          "trend_bearish": 61
+        },
+        "tier_R1": {
+          "trend_dir": "bearish",
+          "trend_confirmed": 7,
+          "segment_confirmed": 8,
+          "bi_confirmed": 27,
+          "zhongshu_confirmed": 1,
+          "trend_bullish": 3,
+          "trend_bearish": 4
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 1,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "bearish",
+        "r0_dir": "bearish",
+        "three_way_unison": false,
+        "two_way_r10": true,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 2,
+        "bearish_confirmed": 0,
+        "total": 7
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": "bearish",
+          "recursive_trend_raw": "bearish",
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 0.0,
+          "verdict": "conflict"
+        },
+        "R0": {
+          "recursive_trend": "bearish",
+          "recursive_trend_raw": "bearish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 2,
+          "alignment_ratio": 0.0,
+          "verdict": "conflict"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 0,
+        "present_r_levels": 2,
+        "conflict_r_levels": 2,
+        "partial_r_levels": 0,
+        "final_verdict": "conflict",
+        "gate_modifier": "BLOCKED",
+        "explanation": "层级冲突: ['R1', 'R0'] 的递归方向与区间套证据矛盾"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "vm": "A"
+    },
+    {
+      "code": "000017",
+      "name": "",
+      "price": 7.5,
+      "ratio": null,
+      "dlp": null,
+      "stage1_confirmed": false,
+      "gate": "PASS",
+      "recursive_direction": "bullish",
+      "recursive_summary": {
+        "trend_bullish": 35,
+        "trend_bearish": 36,
+        "segment_bullish": 41,
+        "segment_bearish": 41,
+        "bi_bullish": 129,
+        "bi_bearish": 129,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 421,
+        "confirmed": 421,
+        "forming": 0,
+        "tier_R0": {
+          "trend_dir": "bearish",
+          "trend_confirmed": 67,
+          "segment_confirmed": 76,
+          "bi_confirmed": 238,
+          "zhongshu_confirmed": 9,
+          "trend_bullish": 33,
+          "trend_bearish": 34
+        },
+        "tier_R1": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 4,
+          "segment_confirmed": 6,
+          "bi_confirmed": 20,
+          "zhongshu_confirmed": 1,
+          "trend_bullish": 2,
+          "trend_bearish": 2
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 0,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "bullish",
+        "r0_dir": "bearish",
+        "three_way_unison": false,
+        "two_way_r10": false,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 1,
+        "bearish_confirmed": 1,
+        "total": 7
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 1,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 1.0,
+          "verdict": "aligned"
+        },
+        "R0": {
+          "recursive_trend": "bearish",
+          "recursive_trend_raw": "bearish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 1,
+          "total_intervals_with_signal": 2,
+          "alignment_ratio": 0.5,
+          "verdict": "partial"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 1,
+        "present_r_levels": 2,
+        "conflict_r_levels": 0,
+        "partial_r_levels": 1,
+        "final_verdict": "partial",
+        "gate_modifier": "WEAK_PASS",
+        "explanation": "1 层完全对齐, 1 层部分对齐 → 弱确认"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "valid": null,
+      "confirmed": null,
+      "near": null,
+      "score": null,
+      "slp": 0.07247947491890154,
+      "slp_score": 20,
+      "slp_valid": true,
+      "slp_source": "scan_one_backfill",
+      "dlp_source": "scan_one_backfill",
+      "vm": "A"
+    },
+    {
+      "code": "000019",
+      "name": "",
+      "price": 6.96,
+      "ratio": null,
+      "dlp": null,
+      "stage1_confirmed": false,
+      "gate": "BLOCKED",
+      "recursive_direction": "bearish",
+      "recursive_summary": {
+        "trend_bullish": 32,
+        "trend_bearish": 33,
+        "segment_bullish": 41,
+        "segment_bearish": 36,
+        "bi_bullish": 122,
+        "bi_bearish": 123,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 394,
+        "confirmed": 394,
+        "forming": 0,
+        "tier_R0": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 64,
+          "segment_confirmed": 73,
+          "bi_confirmed": 230,
+          "zhongshu_confirmed": 7,
+          "trend_bullish": 32,
+          "trend_bearish": 32
+        },
+        "tier_R1": {
+          "trend_dir": "bearish",
+          "trend_confirmed": 1,
+          "segment_confirmed": 4,
+          "bi_confirmed": 15,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 1
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 0,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "bearish",
+        "r0_dir": "bullish",
+        "three_way_unison": false,
+        "two_way_r10": false,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 1,
+        "bearish_confirmed": 1,
+        "total": 7
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": "bearish",
+          "recursive_trend_raw": "bearish",
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 1,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 1.0,
+          "verdict": "aligned"
+        },
+        "R0": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 1,
+          "total_intervals_with_signal": 2,
+          "alignment_ratio": 0.5,
+          "verdict": "partial"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 1,
+        "present_r_levels": 2,
+        "conflict_r_levels": 0,
+        "partial_r_levels": 1,
+        "final_verdict": "partial",
+        "gate_modifier": "WEAK_PASS",
+        "explanation": "1 层完全对齐, 1 层部分对齐 → 弱确认"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "vm": "A"
+    },
+    {
+      "code": "000020",
+      "name": "",
+      "price": 12.8,
+      "ratio": null,
+      "dlp": null,
+      "stage1_confirmed": false,
+      "gate": "BLOCKED",
+      "recursive_direction": "bearish",
+      "recursive_summary": {
+        "trend_bullish": 53,
+        "trend_bearish": 54,
+        "segment_bullish": 65,
+        "segment_bearish": 61,
+        "bi_bullish": 199,
+        "bi_bearish": 199,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 645,
+        "confirmed": 645,
+        "forming": 0,
+        "tier_R0": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 102,
+          "segment_confirmed": 118,
+          "bi_confirmed": 370,
+          "zhongshu_confirmed": 14,
+          "trend_bullish": 51,
+          "trend_bearish": 51
+        },
+        "tier_R1": {
+          "trend_dir": "bearish",
+          "trend_confirmed": 5,
+          "segment_confirmed": 8,
+          "bi_confirmed": 28,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 2,
+          "trend_bearish": 3
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 0,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "bearish",
+        "r0_dir": "bullish",
+        "three_way_unison": false,
+        "two_way_r10": false,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 2,
+        "bearish_confirmed": 0,
+        "total": 7
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": "bearish",
+          "recursive_trend_raw": "bearish",
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 0.0,
+          "verdict": "conflict"
+        },
+        "R0": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 2,
+          "total_intervals_with_signal": 2,
+          "alignment_ratio": 1.0,
+          "verdict": "aligned"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 1,
+        "present_r_levels": 2,
+        "conflict_r_levels": 1,
+        "partial_r_levels": 0,
+        "final_verdict": "conflict",
+        "gate_modifier": "BLOCKED",
+        "explanation": "层级冲突: ['R1'] 的递归方向与区间套证据矛盾"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "vm": "A"
+    },
+    {
+      "code": "000021",
+      "name": "",
+      "price": 33.77,
+      "ratio": null,
+      "dlp": null,
+      "stage1_confirmed": false,
+      "gate": "BLOCKED",
+      "recursive_direction": "bullish",
+      "recursive_summary": {
+        "trend_bullish": 92,
+        "trend_bearish": 92,
+        "segment_bullish": 104,
+        "segment_bearish": 107,
+        "bi_bullish": 334,
+        "bi_bearish": 333,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 1093,
+        "confirmed": 1090,
+        "forming": 3,
+        "tier_R0": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 172,
+          "segment_confirmed": 194,
+          "bi_confirmed": 605,
+          "zhongshu_confirmed": 27,
+          "trend_bullish": 86,
+          "trend_bearish": 86
+        },
+        "tier_R1": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 12,
+          "segment_confirmed": 17,
+          "bi_confirmed": 59,
+          "zhongshu_confirmed": 1,
+          "trend_bullish": 6,
+          "trend_bearish": 6
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 3,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "bullish",
+        "r0_dir": "bullish",
+        "three_way_unison": false,
+        "two_way_r10": true,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 2,
+        "bearish_confirmed": 1,
+        "total": 8
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 0.0,
+          "verdict": "conflict"
+        },
+        "R0": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 1,
+          "total_intervals_with_signal": 2,
+          "alignment_ratio": 0.5,
+          "verdict": "partial"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 0,
+        "present_r_levels": 2,
+        "conflict_r_levels": 1,
+        "partial_r_levels": 1,
+        "final_verdict": "conflict",
+        "gate_modifier": "BLOCKED",
+        "explanation": "层级冲突: ['R1'] 的递归方向与区间套证据矛盾"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "vm": "A"
+    },
+    {
+      "code": "000025",
+      "name": "",
+      "price": 14.69,
+      "ratio": 113.13457527201206,
+      "dlp": 0.0746194805488069,
+      "stage1_confirmed": false,
+      "gate": "PASS",
+      "recursive_direction": "bullish",
+      "recursive_summary": {
+        "trend_bullish": 75,
+        "trend_bearish": 74,
+        "segment_bullish": 79,
+        "segment_bearish": 81,
+        "bi_bullish": 247,
+        "bi_bearish": 248,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 829,
+        "confirmed": 827,
+        "forming": 2,
+        "tier_R0": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 136,
+          "segment_confirmed": 145,
+          "bi_confirmed": 447,
+          "zhongshu_confirmed": 20,
+          "trend_bullish": 68,
+          "trend_bearish": 68
+        },
+        "tier_R1": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 13,
+          "segment_confirmed": 14,
+          "bi_confirmed": 44,
+          "zhongshu_confirmed": 3,
+          "trend_bullish": 7,
+          "trend_bearish": 6
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 1,
+          "bi_confirmed": 4,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "bullish",
+        "r0_dir": "bullish",
+        "three_way_unison": false,
+        "two_way_r10": true,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 2,
+        "bearish_confirmed": 0,
+        "total": 7
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 1,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 1.0,
+          "verdict": "aligned"
+        },
+        "R0": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 2,
+          "total_intervals_with_signal": 2,
+          "alignment_ratio": 1.0,
+          "verdict": "aligned"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 2,
+        "present_r_levels": 2,
+        "conflict_r_levels": 0,
+        "partial_r_levels": 0,
+        "final_verdict": "aligned",
+        "gate_modifier": "PASS",
+        "explanation": "2/2 层递归方向与区间套证据对齐"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "valid": false,
+      "confirmed": false,
+      "near": false,
+      "score": 0,
+      "slp": 0.07240616492021318,
+      "slp_score": 0,
+      "slp_valid": false,
+      "slp_source": "scan_one_backfill",
+      "dlp_source": "scan_one_backfill",
+      "vm": "A"
+    },
+    {
+      "code": "000026",
+      "name": "",
+      "price": 18.23,
+      "ratio": null,
+      "dlp": null,
+      "stage1_confirmed": false,
+      "gate": "BLOCKED",
+      "recursive_direction": "bullish",
+      "recursive_summary": {
+        "trend_bullish": 78,
+        "trend_bearish": 77,
+        "segment_bullish": 87,
+        "segment_bearish": 87,
+        "bi_bullish": 274,
+        "bi_bearish": 273,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 894,
+        "confirmed": 893,
+        "forming": 1,
+        "tier_R0": {
+          "trend_dir": "bearish",
+          "trend_confirmed": 146,
+          "segment_confirmed": 162,
+          "bi_confirmed": 504,
+          "zhongshu_confirmed": 17,
+          "trend_bullish": 73,
+          "trend_bearish": 73
+        },
+        "tier_R1": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 9,
+          "segment_confirmed": 12,
+          "bi_confirmed": 42,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 5,
+          "trend_bearish": 4
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 1,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "bullish",
+        "r0_dir": "bearish",
+        "three_way_unison": false,
+        "two_way_r10": false,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 1,
+        "bearish_confirmed": 1,
+        "total": 8
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 0.0,
+          "verdict": "conflict"
+        },
+        "R0": {
+          "recursive_trend": "bearish",
+          "recursive_trend_raw": "bearish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 1,
+          "total_intervals_with_signal": 2,
+          "alignment_ratio": 0.5,
+          "verdict": "partial"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 0,
+        "present_r_levels": 2,
+        "conflict_r_levels": 1,
+        "partial_r_levels": 1,
+        "final_verdict": "conflict",
+        "gate_modifier": "BLOCKED",
+        "explanation": "层级冲突: ['R1'] 的递归方向与区间套证据矛盾"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "vm": "A"
+    },
+    {
+      "code": "000027",
+      "name": "",
+      "price": 6.37,
+      "ratio": null,
+      "dlp": null,
+      "stage1_confirmed": false,
+      "gate": "BLOCKED",
+      "recursive_direction": "bearish",
+      "recursive_summary": {
+        "trend_bullish": 18,
+        "trend_bearish": 19,
+        "segment_bullish": 24,
+        "segment_bearish": 23,
+        "bi_bullish": 77,
+        "bi_bearish": 76,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 242,
+        "confirmed": 242,
+        "forming": 0,
+        "tier_R0": {
+          "trend_dir": "bearish",
+          "trend_confirmed": 34,
+          "segment_confirmed": 43,
+          "bi_confirmed": 139,
+          "zhongshu_confirmed": 5,
+          "trend_bullish": 17,
+          "trend_bearish": 17
+        },
+        "tier_R1": {
+          "trend_dir": "bearish",
+          "trend_confirmed": 3,
+          "segment_confirmed": 4,
+          "bi_confirmed": 14,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 1,
+          "trend_bearish": 2
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 0,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "bearish",
+        "r0_dir": "bearish",
+        "three_way_unison": false,
+        "two_way_r10": true,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 2,
+        "bearish_confirmed": 0,
+        "total": 7
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": "bearish",
+          "recursive_trend_raw": "bearish",
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 0.0,
+          "verdict": "conflict"
+        },
+        "R0": {
+          "recursive_trend": "bearish",
+          "recursive_trend_raw": "bearish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 2,
+          "alignment_ratio": 0.0,
+          "verdict": "conflict"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 0,
+        "present_r_levels": 2,
+        "conflict_r_levels": 2,
+        "partial_r_levels": 0,
+        "final_verdict": "conflict",
+        "gate_modifier": "BLOCKED",
+        "explanation": "层级冲突: ['R1', 'R0'] 的递归方向与区间套证据矛盾"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "vm": "A"
+    },
+    {
+      "code": "000028",
+      "name": "",
+      "price": 20.0,
+      "ratio": null,
+      "dlp": null,
+      "stage1_confirmed": false,
+      "gate": "BLOCKED",
+      "recursive_direction": "bearish",
+      "recursive_summary": {
+        "trend_bullish": 55,
+        "trend_bearish": 56,
+        "segment_bullish": 65,
+        "segment_bearish": 58,
+        "bi_bullish": 192,
+        "bi_bearish": 192,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 633,
+        "confirmed": 633,
+        "forming": 0,
+        "tier_R0": {
+          "trend_dir": "bearish",
+          "trend_confirmed": 106,
+          "segment_confirmed": 117,
+          "bi_confirmed": 362,
+          "zhongshu_confirmed": 14,
+          "trend_bullish": 53,
+          "trend_bearish": 53
+        },
+        "tier_R1": {
+          "trend_dir": "bearish",
+          "trend_confirmed": 5,
+          "segment_confirmed": 6,
+          "bi_confirmed": 21,
+          "zhongshu_confirmed": 1,
+          "trend_bullish": 2,
+          "trend_bearish": 3
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 1,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "bearish",
+        "r0_dir": "bearish",
+        "three_way_unison": false,
+        "two_way_r10": true,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 0,
+        "bearish_confirmed": 2,
+        "total": 7
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": "bearish",
+          "recursive_trend_raw": "bearish",
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 1,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 1.0,
+          "verdict": "aligned"
+        },
+        "R0": {
+          "recursive_trend": "bearish",
+          "recursive_trend_raw": "bearish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 1,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 2,
+          "total_intervals_with_signal": 2,
+          "alignment_ratio": 1.0,
+          "verdict": "aligned"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 2,
+        "present_r_levels": 2,
+        "conflict_r_levels": 0,
+        "partial_r_levels": 0,
+        "final_verdict": "aligned",
+        "gate_modifier": "PASS",
+        "explanation": "2/2 层递归方向与区间套证据对齐"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "vm": "A"
+    },
+    {
+      "code": "000029",
+      "name": "",
+      "price": 21.19,
+      "ratio": null,
+      "dlp": null,
+      "stage1_confirmed": false,
+      "gate": "BLOCKED",
+      "recursive_direction": "bearish",
+      "recursive_summary": {
+        "trend_bullish": 74,
+        "trend_bearish": 74,
+        "segment_bullish": 86,
+        "segment_bearish": 83,
+        "bi_bullish": 264,
+        "bi_bearish": 265,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 864,
+        "confirmed": 864,
+        "forming": 0,
+        "tier_R0": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 136,
+          "segment_confirmed": 156,
+          "bi_confirmed": 489,
+          "zhongshu_confirmed": 17,
+          "trend_bullish": 68,
+          "trend_bearish": 68
+        },
+        "tier_R1": {
+          "trend_dir": "bearish",
+          "trend_confirmed": 12,
+          "segment_confirmed": 13,
+          "bi_confirmed": 40,
+          "zhongshu_confirmed": 1,
+          "trend_bullish": 6,
+          "trend_bearish": 6
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 0,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "bearish",
+        "r0_dir": "bullish",
+        "three_way_unison": false,
+        "two_way_r10": false,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 2,
+        "bearish_confirmed": 0,
+        "total": 7
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": "bearish",
+          "recursive_trend_raw": "bearish",
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 0.0,
+          "verdict": "conflict"
+        },
+        "R0": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 2,
+          "total_intervals_with_signal": 2,
+          "alignment_ratio": 1.0,
+          "verdict": "aligned"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 1,
+        "present_r_levels": 2,
+        "conflict_r_levels": 1,
+        "partial_r_levels": 0,
+        "final_verdict": "conflict",
+        "gate_modifier": "BLOCKED",
+        "explanation": "层级冲突: ['R1'] 的递归方向与区间套证据矛盾"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "vm": "A"
+    },
+    {
+      "code": "000030",
+      "name": "",
+      "price": 4.06,
+      "ratio": null,
+      "dlp": null,
+      "stage1_confirmed": false,
+      "gate": "BLOCKED",
+      "recursive_direction": "bullish",
+      "recursive_summary": {
+        "trend_bullish": 15,
+        "trend_bearish": 15,
+        "segment_bullish": 20,
+        "segment_bearish": 18,
+        "bi_bullish": 61,
+        "bi_bearish": 61,
+        "trend_bullish_form": 0,
+        "trend_bearish_form": 0,
+        "trend_score": 0.0,
+        "segment_score": 0.0,
+        "evidence_total": 194,
+        "confirmed": 192,
+        "forming": 2,
+        "tier_R0": {
+          "trend_dir": "bearish",
+          "trend_confirmed": 28,
+          "segment_confirmed": 35,
+          "bi_confirmed": 112,
+          "zhongshu_confirmed": 2,
+          "trend_bullish": 14,
+          "trend_bearish": 14
+        },
+        "tier_R1": {
+          "trend_dir": "bullish",
+          "trend_confirmed": 2,
+          "segment_confirmed": 3,
+          "bi_confirmed": 10,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 1,
+          "trend_bearish": 1
+        },
+        "tier_R2": {
+          "trend_dir": "none",
+          "trend_confirmed": 0,
+          "segment_confirmed": 0,
+          "bi_confirmed": 0,
+          "zhongshu_confirmed": 0,
+          "trend_bullish": 0,
+          "trend_bearish": 0
+        },
+        "r2_dir": "none",
+        "r1_dir": "bullish",
+        "r0_dir": "bearish",
+        "three_way_unison": false,
+        "two_way_r10": false,
+        "two_way_r21": false
+      },
+      "interval_timing": {
+        "bullish_confirmed": 1,
+        "bearish_confirmed": 0,
+        "total": 5
+      },
+      "level_alignment": {
+        "R2": {
+          "recursive_trend": null,
+          "recursive_trend_raw": null,
+          "interval_verification": {
+            "60min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "30min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 0,
+          "alignment_ratio": 0.0,
+          "verdict": "no_signal"
+        },
+        "R1": {
+          "recursive_trend": "bullish",
+          "recursive_trend_raw": "bullish",
+          "interval_verification": {
+            "15min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            },
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": true,
+              "has_signal": true
+            }
+          },
+          "aligned_intervals": 1,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 1.0,
+          "verdict": "aligned"
+        },
+        "R0": {
+          "recursive_trend": "bearish",
+          "recursive_trend_raw": "bearish",
+          "interval_verification": {
+            "5min": {
+              "bullish_confirmed": 1,
+              "bearish_confirmed": 0,
+              "total_confirmed": 1,
+              "aligned": false,
+              "has_signal": true
+            },
+            "1min": {
+              "bullish_confirmed": 0,
+              "bearish_confirmed": 0,
+              "total_confirmed": 0,
+              "aligned": false,
+              "has_signal": false
+            }
+          },
+          "aligned_intervals": 0,
+          "total_intervals_with_signal": 1,
+          "alignment_ratio": 0.0,
+          "verdict": "conflict"
+        }
+      },
+      "alignment_overall": {
+        "aligned_r_levels": 1,
+        "present_r_levels": 2,
+        "conflict_r_levels": 1,
+        "partial_r_levels": 0,
+        "final_verdict": "conflict",
+        "gate_modifier": "BLOCKED",
+        "explanation": "层级冲突: ['R0'] 的递归方向与区间套证据矛盾"
+      },
+      "alignment": "unverified",
+      "history_shortfall": false,
+      "vm": "A"
+    }
+  ],
+  "summary": {
+    "BLOCKED": 15,
+    "PASS": 5
+  }
+}
