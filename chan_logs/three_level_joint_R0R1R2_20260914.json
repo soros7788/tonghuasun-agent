@@ -1,0 +1,978 @@
+{
+  "ts": "2026-09-14T07:10:26",
+  "base": "dualscan_20260909_fixed.json",
+  "verification": "2026-09-14 TDX quotes (Top 7)",
+  "total": 37,
+  "tier_core_count": 1,
+  "tier_t2_count": 34,
+  "tier_red_count": 2,
+  "candidates": [
+    {
+      "code": "603650",
+      "dlp": 0.5637,
+      "tier": "CORE",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 90,
+        "trend_bearish": 89,
+        "trend_score": 50.3
+      },
+      "R1": {
+        "segment_bullish": 103,
+        "segment_bearish": 100,
+        "segment_score": 50.7
+      },
+      "R2": {
+        "bc": 3,
+        "total": 9
+      },
+      "price_today": 65.34,
+      "chg_today": 3.89,
+      "main_net_yi": 1.223,
+      "warnings": [],
+      "reason": "bc=3 ts=50.3 ss=50.7"
+    },
+    {
+      "code": "603529",
+      "dlp": 0.5406,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 57,
+        "trend_bearish": 55,
+        "trend_score": 50.9
+      },
+      "R1": {
+        "segment_bullish": 66,
+        "segment_bearish": 59,
+        "segment_score": 52.8
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": 21.5,
+      "chg_today": 2.16,
+      "main_net_yi": 0.0145,
+      "warnings": [],
+      "reason": "bc=2 ts=50.9 ss=52.8"
+    },
+    {
+      "code": "603811",
+      "dlp": 0.5383,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 30,
+        "trend_bearish": 30,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 37,
+        "segment_bearish": 33,
+        "segment_score": 52.9
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": 16.42,
+      "chg_today": 0.43,
+      "main_net_yi": -0.0394,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=52.9"
+    },
+    {
+      "code": "603693",
+      "dlp": 0.5349,
+      "tier": "RED_FLAG",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 39,
+        "trend_bearish": 38,
+        "trend_score": 50.6
+      },
+      "R1": {
+        "segment_bullish": 47,
+        "segment_bearish": 44,
+        "segment_score": 51.6
+      },
+      "R2": {
+        "bc": 2,
+        "total": 8
+      },
+      "price_today": 12.57,
+      "chg_today": -3.44,
+      "main_net_yi": -0.3652,
+      "warnings": [
+        "主力-0.4亿砸盘",
+        "今日跌-3.4%"
+      ],
+      "reason": "bc=2 ts=50.6 ss=51.6"
+    },
+    {
+      "code": "603166",
+      "dlp": 0.5339,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 49,
+        "trend_bearish": 49,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 59,
+        "segment_bearish": 55,
+        "segment_score": 51.8
+      },
+      "R2": {
+        "bc": 2,
+        "total": 8
+      },
+      "price_today": 9.28,
+      "chg_today": 1.53,
+      "main_net_yi": -0.0167,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=51.8"
+    },
+    {
+      "code": "603131",
+      "dlp": 0.5334,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 54,
+        "trend_bearish": 53,
+        "trend_score": 50.5
+      },
+      "R1": {
+        "segment_bullish": 60,
+        "segment_bearish": 57,
+        "segment_score": 51.3
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": 12.7,
+      "chg_today": -1.01,
+      "main_net_yi": 0.0039,
+      "warnings": [],
+      "reason": "bc=2 ts=50.5 ss=51.3"
+    },
+    {
+      "code": "605069",
+      "dlp": 0.5323,
+      "tier": "RED_FLAG",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 64,
+        "trend_bearish": 63,
+        "trend_score": 50.4
+      },
+      "R1": {
+        "segment_bullish": 71,
+        "segment_bearish": 68,
+        "segment_score": 51.1
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": 11.0,
+      "chg_today": 10.0,
+      "main_net_yi": -0.1003,
+      "warnings": [
+        "主力-0.1亿砸盘"
+      ],
+      "reason": "bc=2 ts=50.4 ss=51.1"
+    },
+    {
+      "code": "603116",
+      "dlp": 0.5319,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 38,
+        "trend_bearish": 38,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 49,
+        "segment_bearish": 42,
+        "segment_score": 53.8
+      },
+      "R2": {
+        "bc": 2,
+        "total": 8
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=53.8"
+    },
+    {
+      "code": "603327",
+      "dlp": 0.5315,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 48,
+        "trend_bearish": 48,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 58,
+        "segment_bearish": 50,
+        "segment_score": 53.7
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=53.7"
+    },
+    {
+      "code": "603912",
+      "dlp": 0.5307,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 43,
+        "trend_bearish": 43,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 53,
+        "segment_bearish": 46,
+        "segment_score": 53.5
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=53.5"
+    },
+    {
+      "code": "603171",
+      "dlp": 0.5304,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 84,
+        "trend_bearish": 83,
+        "trend_score": 50.3
+      },
+      "R1": {
+        "segment_bullish": 99,
+        "segment_bearish": 87,
+        "segment_score": 53.2
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.3 ss=53.2"
+    },
+    {
+      "code": "603097",
+      "dlp": 0.5295,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 64,
+        "trend_bearish": 64,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 74,
+        "segment_bearish": 72,
+        "segment_score": 50.7
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=50.7"
+    },
+    {
+      "code": "603617",
+      "dlp": 0.5291,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 37,
+        "trend_bearish": 37,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 44,
+        "segment_bearish": 43,
+        "segment_score": 50.6
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=50.6"
+    },
+    {
+      "code": "603816",
+      "dlp": 0.5288,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 78,
+        "trend_bearish": 77,
+        "trend_score": 50.3
+      },
+      "R1": {
+        "segment_bullish": 87,
+        "segment_bearish": 86,
+        "segment_score": 50.3
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.3 ss=50.3"
+    },
+    {
+      "code": "605183",
+      "dlp": 0.5279,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 56,
+        "trend_bearish": 56,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 66,
+        "segment_bearish": 59,
+        "segment_score": 52.8
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=52.8"
+    },
+    {
+      "code": "603685",
+      "dlp": 0.5235,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 81,
+        "trend_bearish": 81,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 92,
+        "segment_bearish": 86,
+        "segment_score": 51.7
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=51.7"
+    },
+    {
+      "code": "605123",
+      "dlp": 0.5224,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 96,
+        "trend_bearish": 95,
+        "trend_score": 50.3
+      },
+      "R1": {
+        "segment_bullish": 105,
+        "segment_bearish": 100,
+        "segment_score": 51.2
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.3 ss=51.2"
+    },
+    {
+      "code": "605011",
+      "dlp": 0.5223,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 62,
+        "trend_bearish": 61,
+        "trend_score": 50.4
+      },
+      "R1": {
+        "segment_bullish": 69,
+        "segment_bearish": 66,
+        "segment_score": 51.1
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.4 ss=51.1"
+    },
+    {
+      "code": "603876",
+      "dlp": 0.5215,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 72,
+        "trend_bearish": 72,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 85,
+        "segment_bearish": 81,
+        "segment_score": 51.2
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=51.2"
+    },
+    {
+      "code": "605287",
+      "dlp": 0.5215,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 76,
+        "trend_bearish": 76,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 88,
+        "segment_bearish": 84,
+        "segment_score": 51.2
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=51.2"
+    },
+    {
+      "code": "603839",
+      "dlp": 0.5211,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 43,
+        "trend_bearish": 43,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 48,
+        "segment_bearish": 46,
+        "segment_score": 51.1
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=51.1"
+    },
+    {
+      "code": "603721",
+      "dlp": 0.5207,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 63,
+        "trend_bearish": 62,
+        "trend_score": 50.4
+      },
+      "R1": {
+        "segment_bullish": 70,
+        "segment_bearish": 68,
+        "segment_score": 50.7
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.4 ss=50.7"
+    },
+    {
+      "code": "603776",
+      "dlp": 0.5207,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 69,
+        "trend_bearish": 68,
+        "trend_score": 50.4
+      },
+      "R1": {
+        "segment_bullish": 76,
+        "segment_bearish": 74,
+        "segment_score": 50.7
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.4 ss=50.7"
+    },
+    {
+      "code": "603567",
+      "dlp": 0.5205,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 42,
+        "trend_bearish": 41,
+        "trend_score": 50.6
+      },
+      "R1": {
+        "segment_bullish": 47,
+        "segment_bearish": 46,
+        "segment_score": 50.5
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.6 ss=50.5"
+    },
+    {
+      "code": "603195",
+      "dlp": 0.5203,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 73,
+        "trend_bearish": 73,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 84,
+        "segment_bearish": 81,
+        "segment_score": 50.9
+      },
+      "R2": {
+        "bc": 2,
+        "total": 8
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=50.9"
+    },
+    {
+      "code": "603519",
+      "dlp": 0.5203,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 65,
+        "trend_bearish": 63,
+        "trend_score": 50.8
+      },
+      "R1": {
+        "segment_bullish": 73,
+        "segment_bearish": 72,
+        "segment_score": 50.3
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.8 ss=50.3"
+    },
+    {
+      "code": "603339",
+      "dlp": 0.5198,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 55,
+        "trend_bearish": 54,
+        "trend_score": 50.5
+      },
+      "R1": {
+        "segment_bullish": 63,
+        "segment_bearish": 62,
+        "segment_score": 50.4
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.5 ss=50.4"
+    },
+    {
+      "code": "603192",
+      "dlp": 0.5195,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 62,
+        "trend_bearish": 62,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 73,
+        "segment_bearish": 71,
+        "segment_score": 50.7
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=50.7"
+    },
+    {
+      "code": "605133",
+      "dlp": 0.5191,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 72,
+        "trend_bearish": 72,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 83,
+        "segment_bearish": 81,
+        "segment_score": 50.6
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=50.6"
+    },
+    {
+      "code": "603733",
+      "dlp": 0.5191,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 70,
+        "trend_bearish": 69,
+        "trend_score": 50.4
+      },
+      "R1": {
+        "segment_bullish": 78,
+        "segment_bearish": 77,
+        "segment_score": 50.3
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.4 ss=50.3"
+    },
+    {
+      "code": "603612",
+      "dlp": 0.5183,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 62,
+        "trend_bearish": 62,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 71,
+        "segment_bearish": 70,
+        "segment_score": 50.4
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=50.4"
+    },
+    {
+      "code": "603737",
+      "dlp": 0.5179,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 77,
+        "trend_bearish": 77,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 88,
+        "segment_bearish": 87,
+        "segment_score": 50.3
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=50.3"
+    },
+    {
+      "code": "603958",
+      "dlp": 0.5179,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 64,
+        "trend_bearish": 64,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 72,
+        "segment_bearish": 71,
+        "segment_score": 50.3
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=50.3"
+    },
+    {
+      "code": "603992",
+      "dlp": 0.5179,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 71,
+        "trend_bearish": 70,
+        "trend_score": 50.4
+      },
+      "R1": {
+        "segment_bullish": 78,
+        "segment_bearish": 78,
+        "segment_score": 50.0
+      },
+      "R2": {
+        "bc": 2,
+        "total": 7
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.4 ss=50.0"
+    },
+    {
+      "code": "603435",
+      "dlp": 0.5176,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 84,
+        "trend_bearish": 83,
+        "trend_score": 50.3
+      },
+      "R1": {
+        "segment_bullish": 94,
+        "segment_bearish": 94,
+        "segment_score": 50.0
+      },
+      "R2": {
+        "bc": 2,
+        "total": 8
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.3 ss=50.0"
+    },
+    {
+      "code": "603158",
+      "dlp": 0.4925,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 54,
+        "trend_bearish": 54,
+        "trend_score": 50.0
+      },
+      "R1": {
+        "segment_bullish": 67,
+        "segment_bearish": 61,
+        "segment_score": 52.3
+      },
+      "R2": {
+        "bc": 2,
+        "total": 9
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.0 ss=52.3"
+    },
+    {
+      "code": "603163",
+      "dlp": 0.4842,
+      "tier": "T2",
+      "gate": "PASS",
+      "alignment": "aligned_bullish",
+      "R0": {
+        "trend_bullish": 76,
+        "trend_bearish": 75,
+        "trend_score": 50.3
+      },
+      "R1": {
+        "segment_bullish": 85,
+        "segment_bearish": 85,
+        "segment_score": 50.0
+      },
+      "R2": {
+        "bc": 2,
+        "total": 9
+      },
+      "price_today": null,
+      "chg_today": null,
+      "main_net_yi": null,
+      "warnings": [],
+      "reason": "bc=2 ts=50.3 ss=50.0"
+    }
+  ]
+}

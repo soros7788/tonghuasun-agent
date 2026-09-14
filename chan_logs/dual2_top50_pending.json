@@ -1,0 +1,302 @@
+[
+  {
+    "code": "603650",
+    "dlp": 0.5637,
+    "alignment": "aligned_bullish",
+    "gate": "PASS"
+  },
+  {
+    "code": "603196",
+    "dlp": 0.5576,
+    "alignment": "conflicted",
+    "gate": "PASS"
+  },
+  {
+    "code": "603277",
+    "dlp": 0.5516,
+    "alignment": "conflicted",
+    "gate": "PASS"
+  },
+  {
+    "code": "603611",
+    "dlp": 0.5432,
+    "alignment": "conflicted",
+    "gate": "PASS"
+  },
+  {
+    "code": "603706",
+    "dlp": 0.5424,
+    "alignment": "conflicted",
+    "gate": "PASS"
+  },
+  {
+    "code": "603529",
+    "dlp": 0.5406,
+    "alignment": "aligned_bullish",
+    "gate": "PASS"
+  },
+  {
+    "code": "603811",
+    "dlp": 0.5383,
+    "alignment": "aligned_bullish",
+    "gate": "PASS"
+  },
+  {
+    "code": "603693",
+    "dlp": 0.5349,
+    "alignment": "aligned_bullish",
+    "gate": "PASS"
+  },
+  {
+    "code": "603166",
+    "dlp": 0.5339,
+    "alignment": "aligned_bullish",
+    "gate": "PASS"
+  },
+  {
+    "code": "603131",
+    "dlp": 0.5334,
+    "alignment": "aligned_bullish",
+    "gate": "PASS"
+  },
+  {
+    "code": "605069",
+    "dlp": 0.5323,
+    "alignment": "aligned_bullish",
+    "gate": "PASS"
+  },
+  {
+    "code": "603116",
+    "dlp": 0.5319,
+    "alignment": "aligned_bullish",
+    "gate": "PASS"
+  },
+  {
+    "code": "603327",
+    "dlp": 0.5315,
+    "alignment": "aligned_bullish",
+    "gate": "PASS"
+  },
+  {
+    "code": "605388",
+    "dlp": 0.5312,
+    "alignment": "aligned_bullish",
+    "gate": "BLOCKED"
+  },
+  {
+    "code": "603912",
+    "dlp": 0.5307,
+    "alignment": "aligned_bullish",
+    "gate": "PASS"
+  },
+  {
+    "code": "603171",
+    "dlp": 0.5304,
+    "alignment": "aligned_bullish",
+    "gate": "PASS"
+  },
+  {
+    "code": "603766",
+    "dlp": 0.5303,
+    "alignment": "bullish_lean_2v1",
+    "gate": "OBSERVE"
+  },
+  {
+    "code": "603569",
+    "dlp": 0.5303,
+    "alignment": "aligned_bullish",
+    "gate": "BLOCKED"
+  },
+  {
+    "code": "603239",
+    "dlp": 0.5299,
+    "alignment": "aligned_bullish",
+    "gate": "BLOCKED"
+  },
+  {
+    "code": "603097",
+    "dlp": 0.5295,
+    "alignment": "aligned_bullish",
+    "gate": "PASS"
+  },
+  {
+    "code": "603617",
+    "dlp": 0.5291,
+    "alignment": "aligned_bullish",
+    "gate": "PASS"
+  },
+  {
+    "code": "603816",
+    "dlp": 0.5288,
+    "alignment": "aligned_bullish",
+    "gate": "PASS"
+  },
+  {
+    "code": "603121",
+    "dlp": 0.5284,
+    "alignment": "bullish_lean_2v1",
+    "gate": "OBSERVE"
+  },
+  {
+    "code": "603508",
+    "dlp": 0.5281,
+    "alignment": "bullish_lean_2v1",
+    "gate": "PASS"
+  },
+  {
+    "code": "605183",
+    "dlp": 0.5279,
+    "alignment": "aligned_bullish",
+    "gate": "PASS"
+  },
+  {
+    "code": "603325",
+    "dlp": 0.5267,
+    "alignment": "unverified",
+    "gate": "PASS"
+  },
+  {
+    "code": "603515",
+    "dlp": 0.5267,
+    "alignment": "unverified",
+    "gate": "PASS"
+  },
+  {
+    "code": "603678",
+    "dlp": 0.5267,
+    "alignment": "unverified",
+    "gate": "PASS"
+  },
+  {
+    "code": "603759",
+    "dlp": 0.5267,
+    "alignment": "unverified",
+    "gate": "PASS"
+  },
+  {
+    "code": "603583",
+    "dlp": 0.5267,
+    "alignment": "bullish_lean_2v1",
+    "gate": "PASS"
+  },
+  {
+    "code": "603402",
+    "dlp": 0.5263,
+    "alignment": "aligned_bullish",
+    "gate": "OBSERVE"
+  },
+  {
+    "code": "603305",
+    "dlp": 0.5262,
+    "alignment": "bullish_lean_2v1",
+    "gate": "PASS"
+  },
+  {
+    "code": "603599",
+    "dlp": 0.5262,
+    "alignment": "bullish_lean_2v1",
+    "gate": "OBSERVE"
+  },
+  {
+    "code": "603210",
+    "dlp": 0.526,
+    "alignment": "bullish_lean_2v1",
+    "gate": "OBSERVE"
+  },
+  {
+    "code": "603701",
+    "dlp": 0.5255,
+    "alignment": "conflicted",
+    "gate": "PASS"
+  },
+  {
+    "code": "603099",
+    "dlp": 0.5255,
+    "alignment": "conflicted",
+    "gate": "PASS"
+  },
+  {
+    "code": "603226",
+    "dlp": 0.5255,
+    "alignment": "conflicted",
+    "gate": "PASS"
+  },
+  {
+    "code": "603598",
+    "dlp": 0.5255,
+    "alignment": "conflicted",
+    "gate": "BLOCKED"
+  },
+  {
+    "code": "603288",
+    "dlp": 0.5252,
+    "alignment": "bullish_lean_2v1",
+    "gate": "PASS"
+  },
+  {
+    "code": "605007",
+    "dlp": 0.5248,
+    "alignment": "bullish_lean_2v1",
+    "gate": "PASS"
+  },
+  {
+    "code": "603931",
+    "dlp": 0.5246,
+    "alignment": "bearish_lean_2v1",
+    "gate": "PASS"
+  },
+  {
+    "code": "603322",
+    "dlp": 0.5246,
+    "alignment": "bearish_lean_2v1",
+    "gate": "BLOCKED"
+  },
+  {
+    "code": "603665",
+    "dlp": 0.5246,
+    "alignment": "bearish_lean_2v1",
+    "gate": "BLOCKED"
+  },
+  {
+    "code": "603877",
+    "dlp": 0.5245,
+    "alignment": "bullish_lean_2v1",
+    "gate": "PASS"
+  },
+  {
+    "code": "603095",
+    "dlp": 0.5243,
+    "alignment": "bullish_lean_2v1",
+    "gate": "PASS"
+  },
+  {
+    "code": "603726",
+    "dlp": 0.5243,
+    "alignment": "aligned_bullish",
+    "gate": "OBSERVE"
+  },
+  {
+    "code": "605186",
+    "dlp": 0.5239,
+    "alignment": "aligned_bullish",
+    "gate": "OBSERVE"
+  },
+  {
+    "code": "603685",
+    "dlp": 0.5235,
+    "alignment": "aligned_bullish",
+    "gate": "PASS"
+  },
+  {
+    "code": "603863",
+    "dlp": 0.5235,
+    "alignment": "aligned_bullish",
+    "gate": "BLOCKED"
+  },
+  {
+    "code": "603200",
+    "dlp": 0.5235,
+    "alignment": "conflicted",
+    "gate": "BLOCKED"
+  }
+]
