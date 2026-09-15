@@ -1,0 +1,6 @@
+[STDERR]
+Traceback (most recent call last):
+  File "<stdin>", line 23, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: '/home/gorgesoros39/chan_logs/dualscan_20260909_094550_fixed.json'
+dual2: 91 rows, summary={'BLOCKED': 56, 'PASS': 35}
+ledger: 91 rows
